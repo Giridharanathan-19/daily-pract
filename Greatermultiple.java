@@ -5,6 +5,7 @@ public class Greatermultiple{
         int num=obj.nextInt();
         int res=(num-(num%10))+10;
         System.out.print(res);
+        obj.close();
         
         
     }
