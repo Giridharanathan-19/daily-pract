@@ -1,0 +1,11 @@
+mark_1=int(input())
+mark_2=int(input())
+mark_3=int(input())
+mark_4=int(input())
+mark_5=int(input())
+name=input()
+total=mark_1+mark_2+mark_3+mark_4+mark_5
+average=total/5
+print("Name:",name)
+print("Total:",total)
+print("Average:",average)
